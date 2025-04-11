@@ -39,7 +39,7 @@ const alphabet = {
     7: [emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0]],
     8: [emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1]],
     9: [emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1]],
-    " ": [emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0]] 
+    " ": [emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0]] 
 };
 const gap = [emoji[0], emoji[0], emoji[0], emoji[0]];
 
@@ -49,10 +49,10 @@ function percor(texto) {
         for (let i = 0; i < texto.length; i++) {
             arai.push(gap)
             arai.push(alphabet[texto[i].toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")]); 
-            arai.push(gap)
-
         }
+        arai.push(gap)
         return result.textContent = String(arai).split(',').join('');
+
     } else {
         return result.textContent = "Digite algo...";
     }
