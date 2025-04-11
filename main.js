@@ -39,7 +39,7 @@ const alphabet = {
     7: [emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0], emoji[0], emoji[1], emoji[0], emoji[0]],
     8: [emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1]],
     9: [emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1], emoji[0], emoji[0], emoji[0], emoji[1], emoji[1], emoji[1], emoji[1], emoji[1]],
-    " ": [emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0]] 
+    " ": [emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0], emoji[0]] 
 };
 const gap = [emoji[0], emoji[0], emoji[0], emoji[0]];
 
